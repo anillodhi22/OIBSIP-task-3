@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TempConverter</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="task3.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="element">
+            <div id="navbar">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAf0lEQVR4nO2TwQ2AMBDDbv/F8vRIZQNUHpUC2FL/vTiZEdmCZO28aQcPKQONlIFGykAjZaCRsoRpNeIh0cgZrFas1hmsVqzWz6rF4Y/hIQ/RSKzWcux3uJG4keVGXrkRyj6Gh6QrYTSSroTRSLoSRiPpShiNpCthNJKPGJHp4ALJ2XzyscTRjQAAAABJRU5ErkJggg==">
+                <i class="ri-wifi-fill"></i>
+                <i class="ri-battery-fill"></i>
+            </div>
+            <div id="heading">
+                <h1>Conversion Medium</h1>
+            </div>
+            <div id="cont">
+                <div id="part1">
+                    <div id="elem1">
+                        <label id="label1" for="number">Enter</label>
+                        <input type="number" id="number" name="number">
+                    </div>
+                    <div id="elem2">
+                        <label id="label2">Select</label>
+                        <select id="temp1" name="temp1" class="">
+                            <option id="fahrenheit" value="fahrenheit">Fahrenheit</option>
+                            <option id="celsius" value="celsius">Celsius</option>
+                            
+                          </select>
+                    </div>
+                </div>
+                <div id="part2">
+                    <div id="result1">
+                        <span id="result"></span>
+                    </div>
+                    <div id="result2">
+                        <label id="label3">Select</label>
+                        <select id="temp2" name="temp2" class="">
+                            <option id="fahrenheit">Fahrenheit</option>
+                            <option id="celsius" value="celsius">Celsius</option>
+                          </select>
+                    </div>
+                </div>
+                <button type="submit" id="butn">Submit</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="task3.js"></script>
+</body>
+
+</html>
